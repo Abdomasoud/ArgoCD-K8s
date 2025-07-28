@@ -17,29 +17,29 @@ spec:
         image: abdelrhmanmasoud/ecommerce:latest
         ports:
         - containerPort: 3000
-        env:
-        - name: AWS_ACCESS_KEY_ID
-          valueFrom:
-            secretKeyRef:
-              name: aws-secrets
-              key: AWS_ACCESS_KEY_ID
-        - name: AWS_SECRET_ACCESS_KEY
-          valueFrom:
-            secretKeyRef:
-              name: aws-secrets
-              key: AWS_SECRET_ACCESS_KEY
-        - name: DB_SECRET_NAME
-          valueFrom:
-            secretKeyRef:
-              name: aws-secrets
-              key: DB_SECRET_NAME
-        - name: REDIS_SECRET_NAME
-          valueFrom:
-            secretKeyRef:
-              name: aws-secrets
-              key: REDIS_SECRET_NAME
-        - name: APP_SECRET_NAME
-          valueFrom:
-            secretKeyRef:
-              name: aws-secrets
-              key: APP_SECRET_NAME
+        #env:
+        #- name: AWS_ACCESS_KEY_ID
+        #  valueFrom:
+         #   secretKeyRef:
+          #    name: aws-secrets
+          #    key: AWS_ACCESS_KEY_ID
+        #- name: AWS_SECRET_ACCESS_KEY
+        #  valueFrom:
+        #    secretKeyRef:
+        #      name: aws-secrets
+        #      key: AWS_SECRET_ACCESS_KEY
+        #- name: DB_SECRET_NAME
+        #  valueFrom:
+        #    secretKeyRef:
+        #      name: aws-secrets
+        #      key: DB_SECRET_NAME
+        #- name: REDIS_SECRET_NAME
+        #  valueFrom:
+        #    secretKeyRef:
+        #      name: aws-secrets
+        #      key: REDIS_SECRET_NAME
+        #- name: APP_SECRET_NAME
+         # valueFrom:
+         #   secretKeyRef:
+         #     name: aws-secrets
+         #     key: APP_SECRET_NAME
