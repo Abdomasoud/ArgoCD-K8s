@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: ecommerce
-        image: abdelrhmanmasoud/ecommerce:latest
+        image: abdelrhmanmasoud/ecommerce:2.0
         ports:
         - containerPort: 3000
         #env:
@@ -43,4 +43,5 @@ spec:
          #   secretKeyRef:
          #     name: aws-secrets
          #     key: APP_SECRET_NAME
+
 
