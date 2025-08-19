@@ -12,6 +12,7 @@ spec:
       labels:
         app: ecommerce
     spec:
+    # trigger
       containers:
       - name: ecommerce
         image: abdelrhmanmasoud/ecommerce:2.0
@@ -43,5 +44,6 @@ spec:
          #   secretKeyRef:
          #     name: aws-secrets
          #     key: APP_SECRET_NAME
+
 
 
