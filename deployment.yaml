@@ -15,7 +15,7 @@ spec:
     # trigger
       containers:
       - name: ecommerce
-        image: abdelrhmanmasoud/ecommerce:161bce0
+        image: abdelrhmanmasoud/ecommerce:95072cd
         ports:
         - containerPort: 3000
         #env:
