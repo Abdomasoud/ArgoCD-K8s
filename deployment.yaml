@@ -15,7 +15,7 @@ spec:
     # trigger
       containers:
       - name: ecommerce
-        image: abdelrhmanmasoud/ecommerce:e438a96
+        image: abdelrhmanmasoud/ecommerce:95072cd
         ports:
         - containerPort: 3000
         #env:
@@ -44,6 +44,7 @@ spec:
          #   secretKeyRef:
          #     name: aws-secrets
          #     key: APP_SECRET_NAME
+
 
 
 
